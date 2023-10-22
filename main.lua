@@ -18,6 +18,7 @@ function love.load()
     -- configure window
     love.window.setMode( 640, 480, { borderless = false} )
     Maid64.setup(320, 240)
+    love.window.setTitle("Treasure Crypt")
 
     -- set global variables
     superMarioFont = love.graphics.newFont("assets/smb3-font.ttf", FONT_SIZE)
